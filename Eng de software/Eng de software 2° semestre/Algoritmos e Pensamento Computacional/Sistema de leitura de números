@@ -1,0 +1,68 @@
+Início
+
+    Leia num1, num2 e num3
+
+    maior ← num1
+    menor ← num1
+
+    Se num2 > maior então
+        maior ← num2
+    FimSe
+
+    Se num3 > maior então
+        maior ← num3
+    FimSe
+
+    Se num2 < menor então
+        menor ← num2
+    FimSe
+
+    Se num3 < menor então
+        menor ← num3
+    FimSe
+
+    Imprima maior
+    Imprima menor
+
+Fim
+
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2, num3;
+    int maior, menor;
+
+    printf("Digite o primeiro numero: ");
+    scanf("%d", &num1);
+
+    printf("Digite o segundo numero: ");
+    scanf("%d", &num2);
+
+    printf("Digite o terceiro numero: ");
+    scanf("%d", &num3);
+
+    maior = num1;
+    menor = num1;
+
+    if (num2 > maior) {
+        maior = num2;
+    }
+
+    if (num3 > maior) {
+        maior = num3;
+    }
+
+    if (num2 < menor) {
+        menor = num2;
+    }
+
+    if (num3 < menor) {
+        menor = num3;
+    }
+
+    printf("Maior: %d\n", maior);
+    printf("Menor: %d\n", menor);
+
+    return 0;
+}
