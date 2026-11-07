@@ -1,46 +1,21 @@
-🎓 Engenharia de Software
+# Engenharia de Software — UDF
 
-Repositório destinado ao armazenamento de materiais, atividades, projetos e conteúdos desenvolvidos durante o curso superior de Engenharia de Software.
+Repositório acadêmico para organizar materiais, atividades, exercícios e projetos desenvolvidos durante o curso de Engenharia de Software na UDF. O objetivo é manter os trabalhos e conteúdos do curso versionados e agrupados por semestre e disciplina.
 
-📚 Sobre o curso
+## Organização e tecnologias
 
-A Engenharia de Software é uma área da tecnologia voltada para o desenvolvimento, manutenção e gerenciamento de sistemas de software de forma organizada, eficiente e com foco em qualidade.
+Os materiais estão organizados em pastas de semestres e disciplinas. As tecnologias variam conforme cada atividade; o repositório inclui projetos e exercícios de desenvolvimento web com **HTML5** e **CSS3**, além de outros conteúdos acadêmicos. Consulte as instruções da disciplina ou do projeto específico para confirmar linguagens, ferramentas, frameworks e bibliotecas utilizados.
 
-Durante o curso, serão abordados conceitos relacionados à programação, desenvolvimento de sistemas, banco de dados, engenharia de requisitos, arquitetura de software, testes, segurança, gestão de projetos e outras áreas fundamentais para a formação de um profissional de tecnologia.
+## Como executar os materiais
 
-📂 Sobre este repositório
+Não existe uma instalação ou comando de execução único para todo o repositório. Em geral, não é necessário instalar dependências para consultar os materiais; projetos específicos podem ter requisitos próprios, descritos junto aos respectivos arquivos.
 
-Este repositório será utilizado para organizar e versionar os conteúdos desenvolvidos ao longo da graduação.
+1. Navegue até a pasta do semestre, disciplina ou projeto desejado.
+2. Consulte o README ou as instruções existentes nessa pasta para identificar os requisitos e o modo de execução.
+3. Para páginas HTML estáticas, abra o arquivo `index.html` correspondente em um navegador moderno. Se preferir, abra um terminal nessa pasta e execute:
 
-Aqui poderão ser encontrados:
+   ```bash
+   python -m http.server 8000
+   ```
 
-💻 Exercícios e atividades práticas
-📖 Trabalhos e projetos acadêmicos
-🧩 Códigos desenvolvidos durante as disciplinas
-🗄️ Scripts e projetos relacionados a bancos de dados
-📝 Anotações e materiais de estudo
-🧪 Projetos e atividades de testes de software
-🏗️ Projetos relacionados à arquitetura e desenvolvimento de sistemas
-📊 Trabalhos relacionados à gestão e engenharia de software
-
-A organização do repositório poderá acompanhar a evolução do curso, mantendo os conteúdos separados por semestre, disciplina ou projeto, facilitando a consulta e o acompanhamento do aprendizado.
-
-🛠️ Tecnologias
-
-As tecnologias utilizadas poderão variar de acordo com as disciplinas e projetos desenvolvidos ao longo do curso.
-
-Entre elas, poderão estar:
-
-Java
-Python
-JavaScript / TypeScript
-HTML e CSS
-SQL
-Git e GitHub
-Banco de dados relacionais e não relacionais
-Frameworks e bibliotecas diversas
-🎯 Objetivo
-
-O principal objetivo deste repositório é registrar a trajetória acadêmica e prática durante o curso de Engenharia de Software, servindo como um histórico dos conhecimentos adquiridos, projetos desenvolvidos e experiências obtidas ao longo da graduação.
-
-🚀 Em constante evolução: este repositório será atualizado conforme o avanço do curso e o desenvolvimento de novos projetos e atividades.
+4. Acesse [http://localhost:8000](http://localhost:8000). Para atividades em outras linguagens, utilize as ferramentas indicadas pelas instruções específicas do projeto.
