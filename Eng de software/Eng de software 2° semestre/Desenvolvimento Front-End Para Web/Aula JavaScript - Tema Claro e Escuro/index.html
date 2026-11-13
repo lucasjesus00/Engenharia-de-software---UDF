@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <title>Aula de JavaScript — Tema claro e escuro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar" aria-label="Navegação principal">
+        <div class="menu">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </div>
+        <button id="botaotema" type="button" aria-pressed="false">
+            <span id="icone" class="iconetema" aria-hidden="true">&#9790;</span>
+            <span id="textobotao">Modo escuro</span>
+        </button>
+    </nav>
+
+    <main id="inicio" class="conteudo">
+        <h1>Bem-vindo ao site!</h1>
+        <p id="mensagem" aria-live="polite">Estamos utilizando o tema claro.</p>
+        <p id="sobre">Aprendendo HTML, CSS e JavaScript.</p>
+    </main>
+
+    <footer id="contato" class="rodape">
+        <p>Projeto de aula — Desenvolvimento Front-End para Web</p>
+    </footer>
+</body>
+</html>
